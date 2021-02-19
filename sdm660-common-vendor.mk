@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdconfigutils.so \
+    vendor/xiaomi/sdm660-common/proprietary/lib/libwfddisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfddisplayconfig.so \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmminterface.so \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsink.so \
     vendor/xiaomi/sdm660-common/proprietary/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsrc.so \
@@ -68,6 +69,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/xiaomi/sdm660-common/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
     vendor/xiaomi/sdm660-common/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
+    vendor/xiaomi/sdm660-common/proprietary/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdconfigutils.so \
+    vendor/xiaomi/sdm660-common/proprietary/lib64/libwfddisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfddisplayconfig.so \
+    vendor/xiaomi/sdm660-common/proprietary/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdmmsink.so \
     vendor/xiaomi/sdm660-common/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/xiaomi/sdm660-common/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/sdm660-common/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
